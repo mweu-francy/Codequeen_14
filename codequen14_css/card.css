@@ -1,0 +1,35 @@
+*{
+    margin:auto !important ;
+}
+body{
+    background-color: rgb(218, 205, 240);
+   
+}
+
+.mother{
+    background-color: rgb(223, 243, 226);
+    height: 300px;
+    width:200px;
+    padding: 50px;
+
+}
+.logo{
+    padding-left: 40px;
+}
+.photo{
+    height: 150px;
+    width:150px;
+    border-radius:50%;
+    border: white 5px solid;
+    box-shadow: 5px 5px 5px rgb(138, 41, 228);
+    
+}
+#slogan{
+    padding-bottom: 5px;
+}
+.company{
+    color:rgb(73, 43, 226);
+    font-size:large;
+    font-family:Times New Roman;
+    
+}
