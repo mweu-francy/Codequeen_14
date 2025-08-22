@@ -1,0 +1,98 @@
+/* text style and formatting . select font families to use for the site. use several fonts incase the browser does not recognise your font it has a fallback font. can use font size, font size and font style*/
+html{
+    font-family: serif,sans-serif;
+}
+body{
+    background-color: #6e8cd6;
+    /*text styling */
+    text-align: center;
+}
+.container{
+    background-color:darkslateblue;
+    background:linear-gradient( to right , #a5def1,#ccf2ff )
+  
+}
+h1{
+    color: #ffffff;
+    text-shadow:1px 1px 3px darkblue;
+    font-style: italic;
+    
+}
+h2{
+    color: rgb(203, 163, 114);
+    font-size: 20px;
+    font-style:normal;
+}
+.borderImage{
+    border:2px solid black;
+}
+ul li {
+    color: rgb(7, 7, 7);
+    font-size: 20px
+    ;
+
+}
+/*child one level deep inerits thi style*/
+ul > li{
+color :rgb(97, 66, 25);
+}
+
+/* css grouping: used to reduce code redundancies. can group all things in one declaration*/
+h3,h4{
+    color: #1a1515;
+    text-shadow:1px 1px 2px rgb(208, 208, 243);
+}
+.textFormating{
+    font-size: 25px;
+    line-height: 2em;
+    color: white;
+}
+
+a{/*text styling */
+    text-decoration:none;
+    font-size: 20px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+/*working with images*/
+/*making image responsice*/
+img{
+    max-width: 100%;
+    height:auto;
+    padding: 5px;
+    opacity:1;
+    /*how to centre an image*/
+    display: block;
+    margin:auto;
+
+}
+.Image{
+    border-radius: 100px ;
+    width: 200px;
+    height:200px;
+    border:2px solid white;
+    padding : 5px;
+
+}
+.Image1{
+    border-radius: 30px ;
+    width: 300px;
+    height:300px;
+    border:2px solid white;
+    padding : 5px;
+    /* margin creates space around image*/
+    margin:5px;
+    margin-bottom: 60px;
+
+
+}
+button{
+    color:white;
+    background: red;
+    border-radius: 10px;
+    border: none;
+    font-size: 25px;
+    padding:20px;
+}
+
+/* css rows and columns*/

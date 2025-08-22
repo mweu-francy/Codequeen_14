@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+.navbar {
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #0073e6;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.hero {
+  background: linear-gradient(135deg, #0073e6, #00bfff);
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.cta-button {
+  background: white;
+  color: #0073e6;
+  padding: 0.8rem 1.5rem;
+  border: none;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.features, .about, .contact {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.feature-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.feature-item {
+  background: rgb(135, 238, 253);
+  padding: 20px;
+  border-radius: 8px;
+  width: 280px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.contact form {
+  margin-top: 1rem;
+}
+
+.contact input {
+  padding: 0.8rem;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.contact button {
+  padding: 0.8rem 1.2rem;
+  background: #0073e6;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 -2px 4px rgba(0,0,0,0.05);
+  margin-top: 40px;
+}

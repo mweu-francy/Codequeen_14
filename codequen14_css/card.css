@@ -13,6 +13,9 @@ body{
     padding: 50px;
 
 }
+p{
+    text-align: center;
+}
 .logo{
     padding-left: 40px;
 }

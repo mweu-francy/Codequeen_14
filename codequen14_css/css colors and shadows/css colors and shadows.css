@@ -1,0 +1,17 @@
+body{
+    background-image: img src="/pcb file.jpg";
+}
+.container{
+    background-color:darkslateblue;
+    background:linear-gradient( to right , #00bfff,#ccf2ff )
+  
+}
+h1{
+    color: #ffffff;
+    text-shadow:1px 1px 3px blue;
+    background:linear-gradient( to left , #00bfff,#ccf2ff );
+}
+h2{
+    color: rgb(203, 163, 114);
+    text-shadow: 2px 2px 5px black;
+}

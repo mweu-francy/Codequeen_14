@@ -1,0 +1,49 @@
+.photo{
+    height: 150px;
+    width:150px;
+    border-radius:50%;
+    border: white 5px solid;
+    box-shadow: 5px 5px 5px rgb(138, 41, 228);
+    margin-left: 200px;
+    
+}
+.company{
+    color:rgb(73, 43, 226);
+    font-size:large;
+    font-family:Times New Roman;
+    text-align: center;
+ p{
+    text-align: center;
+    padding: 40px;
+}   
+}
+header {
+  background: #333;
+  color: white;
+  text-align: center;
+  height: 50px;
+  width:1000px;
+  padding: 40px;
+}
+#about {
+  background-color: #fff8dc;
+  border-left: 5px solid #ffa07a;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  text-align: center;
+  padding: 40px;
+}
+.section.visible {
+  display: block;
+}
+*{
+    margin:auto !important ;
+}
+.mother{
+
+    background-color: rgb(223, 243, 226);
+    height: 200px;
+    width:1000px;
+    padding: 40px;
+
+}
