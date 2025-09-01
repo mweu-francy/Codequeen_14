@@ -227,4 +227,117 @@ function add(a,b){
 }
 console.log(add(3,5));
 console.log(add(30,5));
-//function for subtraction, multiplication, etc
+//function for addition
+function add(a,b){
+    return a+b;
+}
+console.log(add(3,5));
+console.log(add(30,5));
+
+
+//function for multiplication
+function product(c,d){
+    return c*d;
+}
+console.log(product(3,5));
+console.log(product(30,5));
+
+
+//function for subtraction
+function subtraction(d,e){
+    return d-e;
+}
+console.log(subtraction(3,5));
+console.log(subtraction(30,5));
+
+
+//function for division
+function division(f,g){
+    return f/g;
+}
+console.log(division(3,5));
+console.log(division(30,5));
+
+
+
+// arrow funtion - create avariable and assign it to a function
+const multiply = function(x,y){
+    return x*y;
+
+    
+}
+const arrowFunc =()=>{
+    console.log("This is an arrow function");
+}
+const multiplyArrow =(x,y)=>x*y;
+    
+
+console.log(multiply(4,7));
+console.log("This is an arrow function:" + multiplyArrow(4,7));
+
+// arrow function with multiple lines
+const complexFunc=(a,b)=>{
+    let sum= a+b;
+    let product =a*b;
+    let difference =b-a;
+    return { sum: sum, product :product, difference};
+}
+console.log(complexFunc(4,9));
+
+
+// Loops
+// for loops
+const colors= ["red","green","blue", "purple"];
+//indexing- use index to show an object on a specific the position
+console.log(colors);
+console.log(colors[0]);
+console.log(colors[3]);
+// methods  under arrays i.e push, pop,shift,unshift,includes, slice, splice,
+/*
+//length
+console.log(colors.length);// outputs the length as 4
+
+//push- esed for adding another item on array
+colors.push( " magenta");//["red","green","blue", "purple","magenta"]
+console.log(colors);
+ // pop - removes last irme of array
+ colors.pop();
+ console.log(colors);//["red","green","blue", "purple"]
+
+// splice- removes elements in th araays and if posssible replaces 
+colors.splice(0,1);
+console.log(colors);
+
+//shift- removes the first element
+colors.shift();
+console.log(colors);
+
+//unshift- add an elemetn at the beginning of an array
+colors.unshift("Orange");
+console.log(colors);
+
+//indexof
+let index = colors.indexOf("blue");
+console.log(colors);
+colors.splice(index,1);
+console.log(colors);
+
+*/
+// usign a for loop to iterate through an array
+for (let i=0;i<colors.length;i++ ){
+    console.log(colors[i]);
+}
+
+
+//while loop-do while loop as assignment
+while (i < 10) {
+  text += "The number is " + i;
+  i++;
+}
+ // do while loop
+ do {
+  text += "The number is " + i;
+  i++;
+}
+while (i < 10);
+
